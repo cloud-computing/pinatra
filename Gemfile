@@ -32,3 +32,7 @@ end
 group :hardware do 
   gem 'gpio'
 end
+
+group :java do 
+  gem 'warbler'
+end

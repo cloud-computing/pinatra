@@ -13,3 +13,11 @@ test:
   host: 127.0.0.1
   encoding: utf8
   database: pinatra_test
+
+production:
+  adapter: mysql2
+  username: root
+  password: 
+  host: 127.0.0.1
+  encoding: utf8
+  database: pinatra_development
