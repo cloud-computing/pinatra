@@ -28,3 +28,7 @@ group :test do
   gem 'factory_girl'
   gem 'database_cleaner'
 end
+
+group :hardware do 
+  gem 'gpio'
+end

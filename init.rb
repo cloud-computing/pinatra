@@ -3,7 +3,7 @@ require 'bundler/setup'
 require 'irb'
 require 'sinatra/base'
 
-Bundler.require(:web, :db, :email)
+Bundler.require(:web, :db, :email, :hardware)
 
 # Framework Classes
 Dir["#{File.dirname(__FILE__)}/initializers/*.rb"].each {|file| require file }
