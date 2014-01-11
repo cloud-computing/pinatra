@@ -1,0 +1,1 @@
+system "irb -r #{File.dirname(__FILE__)}/start_console.rb"

@@ -1,0 +1,1 @@
+web: bundle exec unicorn -p 8090 -E development -c ./config/unicorn.rb
